@@ -44,7 +44,7 @@
             <div class="flex flex-col md:flex-row gap-4 md:gap-10 text-left text-white">
                 
                 <div class="w-[100%] md:w-2/5 pr-20 mb-10">
-                    <a href="home.php"><img class="flex ml-0 mb-5" src="assets/img/logo2.png" alt=""></a>
+                    <a href="index.php"><img class="flex ml-0 mb-5" src="assets/img/logo2.png" alt=""></a>
                     
                     <p class="py-3 text-xs">Lore Issue is simply dummy text of the printing and typesetting industry. Lore Issue has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                     

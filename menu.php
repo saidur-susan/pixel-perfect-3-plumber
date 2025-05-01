@@ -31,7 +31,7 @@
           
                 <!-- Logo -->
                 <div class="w-fit">
-                  <a href="home.php"><img class="ml-0" src="assets/img/logo.png" alt="Logo"></a>
+                  <a href="index.php"><img class="ml-0" src="assets/img/logo.png" alt="Logo"></a>
                 </div>
           
                 <!-- Navigation Menu
@@ -59,7 +59,7 @@
                 };
 
                 $menu = [
-                  'Home' => 'home',
+                  'Home' => 'index',
                   'About Us' => 'about',
                   'Services' => 'services',
                   'Blogs' => 'blogs',
