@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+.bricolage {
+    font-family: 'Bricolage Grotesque';
+}
+
+.josefin {
+font-family: 'Josefin', sans-serif;
+}
+
+* {
+    /* margin: 0 auto; */
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto ;
+    max-width: 1170px;
+}
+
+h1{
+    font-family: 'Bricolage Grotesque';
+    font-size: 44px;
+    
+    
+}
+
+h2{
+    font-family: 'Roboto';
+    font-size: 44px;
+   
+}
+
+h3{
+    font-family: 'Roboto';
+    font-size: 30px;
+   
+}
+
+h4{
+    font-family: 'Roboto';
+   
+   
+}
+
+body p {
+    font-family: 'Roboto';
+}
+
+
+
+.single-slide-item:after {
+    background: black;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .5;
+    z-index: 1;
+    position: absolute;
+    content: "";
+}
+
+
+/* Carousel */
+
+ul.slick-dots  {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+
+}
+
+ul.slick-dots button {
+    display: none;
+}
+
+ul.slick-dots li {
+    background-color: white;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    margin-top: -50px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+
+ul.slick-dots {
+    z-index: 10;
+    display: flex;
+}
+
+li .slick-active {
+    background-color: red;
+}
+
+ul.slick-dots li .slick-active {
+    background-color: red;
+}
+
+li a.active {
+    background-color: red;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+}
+ul.slick-dots li.slick-active {
+    background-color: red;
+}
+
+li a.active {
+    background-color: red;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+}
